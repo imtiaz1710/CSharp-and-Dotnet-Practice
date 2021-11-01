@@ -50,7 +50,9 @@ namespace EntityFrameworkPractice
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
         }
+
         public static ILifetimeScope AutofacContainer { get; set; }
+
         public void ConfigureContainer(ContainerBuilder builder)
         {
             var connectionInfo = GetConnectionStringAndAssemblyName();
