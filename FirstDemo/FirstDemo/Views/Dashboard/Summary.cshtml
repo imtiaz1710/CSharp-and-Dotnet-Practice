@@ -1,0 +1,31 @@
+﻿@model SummaryModel
+@{
+    ViewData["Title"] = "Summary";
+    Layout = "_Layout2";
+}
+
+@section Styles
+{
+    <style>
+        h1 {
+            color: yellow;
+        }
+    </style>
+}
+
+<h1>Summary</h1>
+<p>@Model.SummaryText</p>
+@Html.TextBox("SummaryText", Model.SummaryText)
+@Html.ActionLink("Summary", "Summary", "Dashboard", null, new {  style="color:red"  })
+<br/>
+<input type="text" id="SummaryText" name="SummaryText" value="@Model.SummaryText" />
+<a asp-action="Summary" asp-controller="Dashboard" style="color:red">Summary</a>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        alert("hello");
+    </script>
+}
+
+

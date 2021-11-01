@@ -1,0 +1,32 @@
+[07/13/21 15:10:07 [Information]  Application Starting up
+[07/13/21 15:10:07 [Fatal]  Application start-up failed
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at SerilogFullCofig.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\SerilogEmailConfiguration\SerilogEmailConfigDemo\Program.cs:line 34
+[07/13/21 15:11:41 [Information]  Application Starting up
+[07/13/21 15:11:41 [Fatal]  Application start-up failed
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at SerilogFullCofig.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\SerilogEmailConfiguration\SerilogEmailConfigDemo\Program.cs:line 34
+[07/13/21 15:13:50 [Information]  Application Starting up
+[07/13/21 15:13:50 [Fatal]  Application start-up failed
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at SerilogFullCofig.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\SerilogEmailConfiguration\SerilogEmailConfigDemo\Program.cs:line 34
+[07/13/21 15:23:05 [Information]  Application Starting up
+[07/13/21 15:23:05 [Fatal]  Application start-up failed
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at SerilogFullCofig.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\SerilogEmailConfiguration\SerilogEmailConfigDemo\Program.cs:line 34
+[07/13/21 15:28:41 [Information]  Application Starting up
+[07/13/21 15:28:41 [Fatal]  Application start-up failed
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at SerilogFullCofig.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\SerilogEmailConfiguration\SerilogEmailConfigDemo\Program.cs:line 34
+[07/13/21 15:36:55 [Information]  Application Starting up
+[07/13/21 15:36:55 [Fatal]  Application start-up failed
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at SerilogFullCofig.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\SerilogEmailConfiguration\SerilogEmailConfigDemo\Program.cs:line 34
+[07/13/21 16:57:18 [Information]  Application Starting up
+[07/13/21 16:57:18 [Fatal]  Application start-up failed
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at SerilogFullConfiguration.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\SerilogFullConfig\SerilogFullConfig\Program.cs:line 34
+[07/14/21 05:37:25 [Information]  Application Starting up
+[07/14/21 05:37:25 [Fatal]  Application start-up failed
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at SerilogFullConfiguration.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\SerilogFullConfig\SerilogFullConfig\Program.cs:line 34

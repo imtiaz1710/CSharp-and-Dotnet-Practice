@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <MyTable>
+    <Name>Muhit</Name>
+    <age>3</age>
+  </MyTable>
+  <MyTable>
+    <Name>Mukit</Name>
+    <age>7</age>
+  </MyTable>
+</DocumentElement>

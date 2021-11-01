@@ -1,0 +1,12 @@
+﻿@model EnrollStudentModel 
+@{
+    ViewData["Title"] = "Enroll";
+}
+
+<h1>Enroll</h1>
+<form method="post" asp-action="Enroll" asp-controller="Course">
+    Course Name: <input type="text" asp-for="CourseName" /><br/>
+    Student Id: <input type="text" asp-for="StudentId" /><br />
+    <input type="submit" value="Enroll" />
+</form>
+

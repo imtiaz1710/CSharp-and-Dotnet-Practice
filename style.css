@@ -1,0 +1,22 @@
+<style >
+body {
+	background-color: cornsilk;
+}
+
+p.first {
+	background-color: aqua;
+}
+
+ol.animalList {
+	font-family: Gabriola;
+	color: darkgreen;
+	font-size: medium;
+	border: double;
+	border-color: firebrick
+}
+
+li#cat {
+	color: red;
+}
+
+</style >

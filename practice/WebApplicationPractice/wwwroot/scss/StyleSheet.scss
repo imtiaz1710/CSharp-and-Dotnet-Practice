@@ -1,0 +1,15 @@
+﻿
+@mixin someStyle($color) {
+   div {
+        background-color: $color;
+
+        button {
+            background-color: green;
+
+            &:hover {
+                background-color: blue;
+            }
+        }
+    }
+}
+@include someStyle(red);

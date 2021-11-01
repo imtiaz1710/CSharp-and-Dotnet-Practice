@@ -1,0 +1,20 @@
+﻿@model DependencyInjectionConsole.AccountManagementService
+@{
+    ViewData["Title"] = "AccountServices";
+}
+
+@section Style
+{
+    <style>
+      h2{
+            color: aqua;
+        }
+    </style>
+}
+
+<p style="color:Highlight">@Model.emailService.SendConfirmationEmailToUser("abc@gamil.com")</p>
+<p style="color:aqua">@Model.databaseAccessService.SaveUserInDatabase("abc@gmail.com", "245")</p>
+@Html.TextBox("Hello", Model.emailService.SendConfirmationEmailToUser("abc@gmail.com"))
+<br /> <br />
+<a asp-action="Index" asp-controller="Home">Main Page</a>
+

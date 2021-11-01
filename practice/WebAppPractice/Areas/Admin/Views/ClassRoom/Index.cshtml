@@ -1,0 +1,14 @@
+﻿@model ChairListModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@{ 
+    foreach (var chair in Model.Chairs)
+    {
+        <h1>@chair.Id</h1>
+        <h2>@chair.Color</h2>
+    }
+}
