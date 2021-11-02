@@ -15,9 +15,9 @@ namespace Reflection
 
             foreach (var type in types)
             {
-                if(type.Name==initClassName)
+                if(type.Name == initClassName)
                 {
-                    ConstructorInfo constructor = type.GetConstructor(new Type[0]);
+                    var constructor = type.GetConstructor(new Type[0]);
                     var instance = constructor.Invoke(new Type[0]);
 
                     MethodInfo method = type.GetMethod("InitMehtod");
