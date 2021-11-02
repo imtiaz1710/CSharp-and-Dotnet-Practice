@@ -30,7 +30,6 @@ namespace DependencyInjectionPractice
                 .AddEnvironmentVariables();
 
             WebHostEnvironment = env;
-
             Configuration = builder.Build();
         }
 
@@ -71,23 +70,18 @@ namespace DependencyInjectionPractice
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             
-
             services.AddControllersWithViews();
             services.AddHttpContextAccessor();
             services.AddRazorPages();
             services.AddDatabaseDeveloperPageExceptionFilter();
            
             services.AddTransient<IDatabaseAccessService, DatabaseAccessService>();
-            
-          
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-
             AutofacContainer = app.ApplicationServices.GetAutofacRoot();
-
 
             if (env.IsDevelopment())
             {
