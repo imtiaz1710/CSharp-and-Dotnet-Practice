@@ -10,6 +10,7 @@ namespace BuilderPattern
     {
         public string Name;
         public string Address;
-        public string PhoneNo;
+        public Int64 PhoneNo;
+        public List<string> Skills;
     }
 }
