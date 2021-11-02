@@ -6,7 +6,10 @@ namespace Factory
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var product = ProductFactory<Book>.CreateProduct("Homo sapiense", 20, 100);
+
+            Console.WriteLine(product.Price);
+            Console.WriteLine(product.GetType());
         }
     }
 }
