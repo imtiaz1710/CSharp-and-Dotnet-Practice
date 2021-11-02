@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkLibrary", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppPractice", "WebAppPractice\WebAppPractice.csproj", "{0EE6D9DB-97AA-4600-864F-76AA0F7384A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{179FE781-B112-4373-B4D2-475D55D6A140}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{179FE781-B112-4373-B4D2-475D55D6A140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConverterXmlToJsonByDataTable", "ConverterXmlToJsonByDataTable\ConverterXmlToJsonByDataTable.csproj", "{369ED45B-E6C0-4138-90A3-02D18ED81DA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{179FE781-B112-4373-B4D2-475D55D6A140}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{179FE781-B112-4373-B4D2-475D55D6A140}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{179FE781-B112-4373-B4D2-475D55D6A140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369ED45B-E6C0-4138-90A3-02D18ED81DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369ED45B-E6C0-4138-90A3-02D18ED81DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369ED45B-E6C0-4138-90A3-02D18ED81DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369ED45B-E6C0-4138-90A3-02D18ED81DA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
